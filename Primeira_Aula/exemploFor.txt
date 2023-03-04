@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Aula {
+
+      public static void main(String[] args) {
+
+            int numeroFinal = 5;
+            int soma = 0;
+
+            for (int i = 1; i <= numeroFinal; i++) {
+                  soma += i;
+                  System.out.println(soma);
+            }
+
+      }
+}

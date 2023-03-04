@@ -1,0 +1,32 @@
+public class Aula {
+
+      public static final float PI = 3.144F;
+
+      public static void main(String[] args) {
+            final float pi = 3.146f;
+            double e = 1.233;
+            String nome = "Katiana";
+            String dataAniversario = "26/06/2000";
+            int lote = 43434;
+            boolean aprovado = true;
+
+            System.out.println(e);
+            System.out.println(pi);
+            System.out.println(nome);
+            System.out.println(dataAniversario);
+            System.out.println(lote);
+            System.out.println(aprovado);
+
+            System.out.println(PI);
+            
+            System.out.println("-----------------");
+
+            int total = 10;
+            System.out.println(total += 3);
+            System.out.println(total -= 3);
+            System.out.println(total *= 3);
+            System.out.println(total /= 3);
+
+
+      }
+}
